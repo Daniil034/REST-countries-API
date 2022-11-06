@@ -14,7 +14,7 @@ import "./index.css";
 
 const router = createBrowserRouter([
   {
-    path: "/REST-countries-API",
+    path: "https://daniil034.github.io/REST-countries-API/",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
