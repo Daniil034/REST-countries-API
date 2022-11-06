@@ -1,0 +1,39 @@
+.search-filter-parameters {
+  margin-bottom: 32px;
+}
+
+.search-filter-parameters__input {
+  margin-bottom: 40px;
+  flex-grow: 1;
+}
+
+.countries-wrapper {
+  width: 88%;
+  max-width: 1281px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 264px);
+  column-gap: 75px;
+  justify-content: center;
+}
+
+.no-match {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+@media (min-width: 686px) {
+  .search-filter-parameters {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 50px;
+  }
+
+  .search-filter-parameters__input {
+    margin-bottom: 0;
+  }
+}
