@@ -8,11 +8,11 @@ import CountryPage, {
   loader as countryLoader,
 } from "./routes/CountryPage/CountryPage";
 import { store } from "./routes/app/store";
-import { createBrowserRouter, RouterProvider, Route } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./reset.css";
 import "./index.css";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,
