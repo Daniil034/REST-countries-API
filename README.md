@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [frontendmentor.io](https://www.frontendmentor.io/solutions/rest-countries-api-react-react-router-v6-redux-asyncthunks-uQDWFPY2mg)
+- Live Site URL: [Github pages](https://daniil034.github.io/REST-countries-API/)
 
 ## My process
 
