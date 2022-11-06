@@ -1,5 +1,6 @@
 {
   "name": "rest",
+  "homepage": "https://daniil034.github.io/REST-countries-API/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
