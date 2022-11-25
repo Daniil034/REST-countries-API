@@ -30,8 +30,8 @@ const Regions = () => {
   return (
     <form>
         <select className="select" onChange={(e) => handleChange(e.currentTarget.value)}>
-            <option value='0' hidden={countryRegion === '' ? true : false}>Filter by Region</option>
-            {regions.map((region, index) => <option key={index} value={region} selected={countryRegion === region ? true : false} hidden={countryRegion === region ? true : false}>{region}</option> )}
+            <option value='0' hidden={countryRegion === ''}>Filter by Region</option>
+            {regions.map((region, index) => <option key={index} value={region} selected={countryRegion === region} hidden={countryRegion === region}>{region}</option> )}
         </select>
     </form>
   )

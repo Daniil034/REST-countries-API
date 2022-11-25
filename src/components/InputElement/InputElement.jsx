@@ -29,7 +29,7 @@ const InputElement = () => {
       return;
     }
     const timer = setTimeout(async () => {
-      await dispatch(loadCountries({ countryName, countryRegion: regionName }));
+      dispatch(loadCountries({ countryName, countryRegion: regionName }));
     }, 1000);
     return () => clearTimeout(timer);
   }, [countryName]);
