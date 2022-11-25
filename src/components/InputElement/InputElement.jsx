@@ -40,11 +40,11 @@ const InputElement = () => {
       <input
         type="text"
         className="input-block__field"
-        onChange={(e) => handleInput(e)}
+        onChange={handleInput}
         value={countryName}
         placeholder="Search for a country…"
       />
-      {countryName ? <div className="close" onClick={handleErase}></div> : null}
+      {countryName && <div className="close" onClick={handleErase}></div>}
     </form>
   );
 };
